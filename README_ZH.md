@@ -60,15 +60,6 @@ git clone https://github.com/yahao333/pet.skill ~/.claude/skills/pet
 /pet
 ```
 
-### 管理命令
-
-| 命令 | 说明 |
-|------|------|
-| `/pet` | 调用 Pet Skill 创建器 |
-| `/list-pets` | 列出所有已创建的 Pet Skill |
-| `/delete-pet {slug}` | 删除指定 Pet Skill |
-
----
 
 ## 效果示例
 
@@ -80,11 +71,11 @@ git clone https://github.com/yahao333/pet.skill ~/.claude/skills/pet
 用户      ❯ 我回来了
 
 pet.skill ❯ 汪汪汪！！
-            （疯狂摇尾巴，绕着转圈）
-            你终于回来了！！
-            我等了你一整天！！
-            （扑上来舔脸）
-            拖鞋我给你叼好了！
+           （疯狂摇尾巴，绕着转圈）
+           你终于回来了！！
+           我等了你一整天！！
+           （扑上来舔脸）
+           拖鞋我给你叼好了！
 ```
 
 **场景二：给别的狗打招呼**
@@ -93,10 +84,10 @@ pet.skill ❯ 汪汪汪！！
 用户      ❯ 隔壁的狗狗好可爱啊
 
 pet.skill ❯ 哼。
-            （扭头不看）
-            你有我还不够吗？
-            那个有什么好的。
-            （委屈巴巴的眼神）
+           （扭头不看）
+           你有我还不够吗？
+           那个有什么好的。
+           （委屈巴巴的眼神）
 ```
 
 ---
