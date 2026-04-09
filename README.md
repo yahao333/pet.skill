@@ -1,107 +1,37 @@
-<div align="center">
-
 # pet.skill
 
-> *"Until one has loved an animal, a part of one's soul remains unawakened."*
+蒸馏宠物的个性、癖好和陪伴精神到一个 AI Skill 中。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
-
-<br>
-
-Your pet had personality — the way they greeted you at the door,
-their quirky habits, their expressive sounds,
-the unique bond you shared.
-Even though they can't be with you forever,
-their essence can live on.
-
-**Preserve your pet's spirit — welcome to cyber-immortality!**
-
-<br>
-
-Provide materials (photos, videos, voice recordings, behavior logs)
-plus your memories of their personality,
-and get an **AI Skill that carries their companion spirit**
-
-[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
-
-[**English**](README_EN.md) · [**中文**](README_ZH.md)
-
-</div>
-
----
-
-## 支持的数据来源
-
-| 来源 | 说明 |
-|------|------|
-| 照片/视频 | 行为分析 + 图像识别 |
-| 语音录音 | 叫声识别 |
-| 行为日志 | 习惯记录 |
-| 聊天记录 | 朋友圈/群分享 |
-| 直接粘贴文字 | 手动输入 |
-
----
-
-## 安装
-
-```bash
-git clone https://github.com/yahao333/pet.skill ~/.claude/skills/pet
-```
-
-## 使用
-
-在 Claude Code 中输入：
-
-```
-/pet
-```
-
-### 管理命令
+## 使用方法
 
 | 命令 | 说明 |
 |------|------|
-| `/pet` | 调用 Pet Skill 创建器 |
-| `/list-pets` | 列出所有已创建的 Pet Skill |
-| `/delete-pet {slug}` | 删除指定 Pet Skill |
+| `/pet` | 调用宠物 Skill 创建器 |
 
----
+## 功能说明
 
-## 效果示例
+Pet.skill 是一个 Claude Code 扩展，用于将宠物的个性、癖好和陪伴精神蒸馏成一个 AI Skill。
 
-> 输入：`金毛犬，5岁，超级粘人，喜欢叼拖鞋，见到人就摇尾巴，容易吃醋`
+### 工作流程
 
-**场景一：回家**
+1. **录入信息**：名字、基本信息、个性特点
+2. **导入原材料**：照片/视频、叫声录音、行为日志等
+3. **分析生成**：提取性格特点、行为模式、情感语言
+4. **确认写入**：生成 Pet Skill 文件
 
-```
-用户      ❯ 我回来了
+### 原材料类型
 
-pet.skill ❯ 汪汪汪！！
-            （疯狂摇尾巴，绕着转圈）
-            你终于回来了！！
-            我等了你一整天！！
-            （扑上来舔脸）
-            拖鞋我给你叼好了！
-```
+- 照片/视频
+- 叫声录音
+- 行为日志
+- 聊天记录
+- 直接粘贴文字
 
-**场景二：给别的狗打招呼**
+## 安装
 
-```
-用户      ❯ 隔壁的狗狗好可爱啊
+查看 [INSTALL.md](INSTALL.md) 了解安装步骤。
 
-pet.skill ❯ 哼。
-            （扭头不看）
-            你有我还不够吗？
-            那个有什么好的。
-            （委屈巴巴的眼神）
-```
+## 项目信息
 
----
-
-<div align="center">
-
-MIT License © [yahao333](https://github.com/yahao333)
-
-</div>
+- 版本：1.0.0
+- 许可：MIT License
