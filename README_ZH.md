@@ -2,7 +2,7 @@
 
 # pet.skill
 
-> *"Until one has loved an animal, a part of one's soul remains unawakened."*
+> *"一个人如果没有爱过动物，灵魂的一部分就始终没有觉醒。"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
@@ -11,21 +11,22 @@
 
 <br>
 
-Your pet had personality — the way they greeted you at the door,
-their quirky habits, their expressive sounds,
-the unique bond you shared.
-Even though they can't be with you forever,
-their essence can live on.
+你的宠物有个性 ——
+他们迎接你的方式，
+他们古怪的习惯，他们有表情的声音，
+还有你们之间独特的羁绊。
+虽然他们不能永远陪着你，
+但他们的灵魂可以延续。
 
-**Preserve your pet's spirit — welcome to cyber-immortality!**
+**保留你宠物的精神 —— 欢迎加入赛博永生！**
 
 <br>
 
-Provide materials (photos, videos, voice recordings, behavior logs)
-plus your memories of their personality,
-and get an **AI Skill that carries their companion spirit**
+提供材料（照片、视频、语音录音、行为记录）
+加上你对他们个性的记忆，
+生成一个**承载他们陪伴精神的 AI Skill**
 
-[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
+[支持的数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
 
 [**English**](README_EN.md) · [**中文**](README_ZH.md)
 
