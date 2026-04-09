@@ -59,15 +59,6 @@ In Claude Code, type:
 /pet
 ```
 
-### Management Commands
-
-| Command | Description |
-|---------|-------------|
-| `/pet` | Invoke Pet Skill creator |
-| `/list-pets` | List all created Pet Skills |
-| `/delete-pet {slug}` | Delete specified Pet Skill |
-
----
 
 ## Demo
 
@@ -79,11 +70,11 @@ In Claude Code, type:
 User       ❯ I'm back!
 
 pet.skill  ❯ Woof woof woof!!
-             (frantically wagging tail, spinning around)
-             You're finally home!!
-             I waited for you ALL DAY!!
-             (jumping up to lick your face)
-             I already fetched your slippers!
+            (frantically wagging tail, spinning around)
+            You're finally home!!
+            I waited for you ALL DAY!!
+            (jumping up to lick your face)
+            I already fetched your slippers!
 ```
 
 **Scenario 2: Seeing Another Dog**
@@ -92,10 +83,10 @@ pet.skill  ❯ Woof woof woof!!
 User       ❯ That neighbor's dog is so cute
 
 pet.skill  ❯ Hmph.
-             (turning head away)
-             Aren't I enough for you?
-             What's so great about that one anyway.
-             (puppy eyes with hurt feelings)
+            (turning head away)
+            Aren't I enough for you?
+            What's so great about that one anyway.
+            (puppy eyes with hurt feelings)
 ```
 
 ---
