@@ -52,8 +52,6 @@
 git clone https://github.com/yahao333/pet.skill ~/.claude/skills/pet
 ```
 
----
-
 ## 使用
 
 在 Claude Code 中输入：
@@ -62,14 +60,13 @@ git clone https://github.com/yahao333/pet.skill ~/.claude/skills/pet
 /pet
 ```
 
-### 命令
+### 管理命令
 
 | 命令 | 说明 |
 |------|------|
-| `/pet` | 调用完整 Skill |
-| `/pet-play` | 玩耍模式 |
-| `/pet-scold` | 假装批评模式 |
-| `/pet-talk` | 日常对话模式 |
+| `/pet` | 调用 Pet Skill 创建器 |
+| `/list-pets` | 列出所有已创建的 Pet Skill |
+| `/delete-pet {slug}` | 删除指定 Pet Skill |
 
 ---
 

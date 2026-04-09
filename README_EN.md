@@ -51,8 +51,6 @@ and get an **AI Skill that carries their companion spirit**
 git clone https://github.com/yahao333/pet.skill ~/.claude/skills/pet
 ```
 
----
-
 ## Usage
 
 In Claude Code, type:
@@ -61,14 +59,13 @@ In Claude Code, type:
 /pet
 ```
 
-### Commands
+### Management Commands
 
 | Command | Description |
 |---------|-------------|
-| `/pet` | Invoke full Skill |
-| `/pet-play` | Play mode |
-| `/pet-scold` | Pretend scold mode |
-| `/pet-talk` | Daily chat mode |
+| `/pet` | Invoke Pet Skill creator |
+| `/list-pets` | List all created Pet Skills |
+| `/delete-pet {slug}` | Delete specified Pet Skill |
 
 ---
 
